@@ -74,3 +74,15 @@ rect.selection {
   stroke-width: 2;
 }
 
+@media(max-width: 900px) {
+  #chart-explanation {
+    position: relative;
+    padding: 10px 10px 20px 30px;
+    width: 330px;
+    margin: 10px;
+  }
+  #chart-title {
+    width: 100%;
+  }
+}
+
