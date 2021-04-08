@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////
 
 const width = 1400;
-const height = 700 //700;
+const height = 680 //700;
 const margin = {top: 100, right: 20, bottom: 40, left: 60};
 const innerWidth = width - margin.left - margin.right;
 const innerHeight = height - margin.top - margin.bottom;
@@ -74,7 +74,7 @@ g.selectAll("circle")
 ///////////////////////////////////////////////////////////
 
 d3.csv("./data/sakura_bloom_data.csv", d3.autoType).then(d => {
-  const data = d.filter(el => el.AD > 800); 
+  const data = d.filter(el => el.AD > 1200); 
   console.log(data)
   const scratterPlotG = g.append("g").attr("class", 'scatterplot-g')
 
