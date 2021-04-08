@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="aligner">
+    <div id="chart-wrapper">
+      <div id="chart-title">
+        <h1>Cherry Blossom Bloom Times in Kyoto</h1>
+        <p>since the 9th century</p>
+      </div>
+      <div id="chart-explanation">
+        <span>Data</span>
+        <br>
+        <a href="http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/" target="_blank">Full-flowering Dates of Prunus jamasakura in Kyoto City</a>
+        <br>
+        <ul>
+          <li>for 9th to 14th centuries: Aono and Saito, 2010; Int. J. Biometeorol.,54, 211-219</li>
+          <li>for 15th to 21st centuries: Aono and Kazui, 2008; Int. J. Climatol., 28, 905-914</li>
+        </ul>
+        <br>
+        Each cherry blossom 山桜 flower represents one datapoint. 
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="brushgraph.js"></script>
+</body>
+</html>
